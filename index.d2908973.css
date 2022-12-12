@@ -26,10 +26,6 @@ body {
   font: 14px / 1.4 Arial, sans-serif;
 }
 
-img {
-  display: block;
-}
-
 .grid {
   z-index: 9999;
   pointer-events: none;
@@ -484,6 +480,10 @@ img {
   background-color: #212121;
 }
 
+.footer__image {
+  display: block;
+}
+
 .footer__links {
   flex-direction: column;
   row-gap: 30px;
@@ -506,10 +506,6 @@ img {
   display: flex;
 }
 
-.footer__social img {
-  display: block;
-}
-
 .footer__applinks {
   flex-basis: 33.3333%;
   column-gap: 8px;
@@ -520,10 +516,6 @@ img {
   .footer__applinks {
     justify-content: center;
   }
-}
-
-.footer__applinks img {
-  display: block;
 }
 
 .footer__logo {
