@@ -1,6 +1,10 @@
 .footer {
     background-color: @color-dark-bg;
 
+    &__image {
+        display: block;
+    }
+
     &__links {
         display: flex;
         flex-direction: column;
@@ -20,10 +24,6 @@
         align-items: center;
         column-gap: 15px;
         flex-basis: calc(100% / 3);
-
-        & img {
-            display: block;
-        }
     }
 
     &__applinks {
@@ -33,10 +33,6 @@
 
         @media @screen-gt-m {
             justify-content: center;
-        }
-
-        & img {
-            display: block;
         }
     }
 
